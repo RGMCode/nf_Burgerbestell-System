@@ -28,6 +28,13 @@ public class OrderSystem {
         return menus.get(id);
     }
 
+    void printMenus() {
+        System.out.println("Verfügbare Menüs:");
+        for(Menu menu : menus.values()) {
+            System.out.println(menu);
+        }
+    }
+
     void placeOrder() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Bitte geben Sie die Menünummer ein: ");
