@@ -30,7 +30,7 @@ public class OrderSystem {
 
     void printMenus() {
         System.out.println("Verfügbare Menüs:");
-        for(Menu menu : menus.values()) {
+        for (Menu menu : menus.values()) {
             System.out.println(menu);
         }
     }
